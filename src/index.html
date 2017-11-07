@@ -5,6 +5,26 @@
     <%include _head.html%>
 </head>
 <body>
-
+    <div id="app" v-cloak>
+        <!--top nav-->
+        <%include _nav.html%>
+        <!--padding-->
+        <div class="padding-t__nav"></div>
+        <!--content-->
+        <div class="box__container">
+            <div class="box__content">
+                <div class="box__type1">
+                    <div></div>
+                </div>
+                <div class="box__list"></div>
+            </div>
+        </div>
+    </div>
 </body>
+<script>
+    new Vue({
+        el:'#app',
+        data:{}
+    })
+</script>
 </html>

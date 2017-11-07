@@ -1,6 +1,12 @@
 html,body{
     height: 100%;
 }
+body{
+    font-family:"Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+a,a:link,a:visited{
+    color:#556;
+}
 
 /**
  * font-size
@@ -209,4 +215,39 @@ html,body{
 .icon_nav{    
     position: relative;
     top:-0.2rem;
+}
+
+/*padding*/
+.padding-t__nav{
+    padding-top:2.2rem;
+}
+
+/*nav*/
+.nav__top{
+    position: fixed;
+    top:0;
+    left:0;
+    width:97.5%;
+    height:2.2rem;
+    line-height:2.2rem;
+    font-size:.75rem;
+    padding:0 .25rem;
+}
+
+/*box*/
+.box__container{
+    padding:0.25rem;
+    background-color: #e2e2e2;
+}
+.box__content{
+    background-color:#fff;
+    -webkit-border-radius:.15rem;
+    -moz-border-radius:.15rem;
+    border-radius:.15rem;
+}
+.box__type1{
+    padding:.25rem;
+}
+.box__list{
+
 }
