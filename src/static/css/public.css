@@ -1,0 +1,176 @@
+/**
+ *  命名规则
+ *  BEM : block-position_num__element--modifier
+ *  eg : margin-top_15__menu
+         margin-top_15__menu-item--active
+
+ *  BEM : block-position_stateName__element--modifier
+ *  eg : bg-color_none
+         bg-color_warn
+         bg-color__body
+         bg-color__theme
+         bg-color__cart
+ */
+
+/**
+ * 修改请直接在这个文件ctrl+h替换，并且同步修改这里的注释以便以后查找和修改
+    主題色     theme       3880f4
+    辅助色     assist      fd9a54
+    购物车     cart        ff9000
+    积分色     integral    fd9a54
+    价格色     prize       ff0101
+    支付色     pay         ff0137
+    图标色     icon        c7c7cc
+    箭头色     arrow       c9c9c9
+ */
+
+/**
+ * 提供修改：主题色
+ */
+/* bg-color */
+.bg-color__body {
+    /*背景_body*/
+    background-color: #f4f4f4;
+}
+.bg-color__theme {
+    /*背景_主题*/
+    background-color: #3880f4;
+}
+.bg-color__assist {
+    /*背景_辅助*/
+    background-color: #fd9a54;
+}
+.bg-color__cart {
+    /*背景_购物车*/
+    background-color: #ff9000;
+}
+.bg-color__integral {
+    /*背景_积分*/
+    background-color: #fd9a54;
+}
+.bg-color__prize {
+    /*背景_价格*/
+    background-color: #ff0101;
+}
+.bg-color__pay {
+    /*背景_支付*/
+    background-color: #ff0137;
+}
+
+/* font-color */
+.font-color__theme {
+    /*文字_主题*/
+    color: #3880f4;
+}
+.font-color__assist {
+    /*文字_辅助*/
+    color: #fd9a54;
+}
+.font-color__prize {
+    /*文字_价格*/
+    color: #ff0101;
+}
+.font-color__integral {
+    /*文字_积分*/
+    color: #fd9a54;
+}
+.font-color__pay {
+    /*文字_支付*/
+    color: #ff0137;
+}
+.font-color__icon {
+    /*文字_icon*/
+    color: #c7c7cc;
+}
+.font-color__arrow {
+    /*文字_箭头*/
+    color: #c9c9c9;
+}
+
+
+/**
+ * component
+ */
+
+/**
+ * btn
+ */
+
+/* btn-around__element */
+.btn-around__theme {
+    /*主题*/
+    color: #3880f4;
+    background: #fff;
+    border-color: #3880f4;
+}
+.btn-around__theme:after{
+    border-color: #3880f4;
+}
+
+
+
+/**
+ * 提供修改：源代码
+ */
+
+/**
+ * 微信端源代码 : 主题色
+ */
+/* dialog */
+.weui-dialog__btn{
+    color:#3880f4;
+}
+/* swiper-pagination */
+.swiper-pagination-bullet{
+    background: #3880f4;
+}
+.swiper-pagination-bullet-active{
+    background:#3880f4;
+}
+/* checkbox */
+.weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{
+    color:#3880f4;
+}
+.weui-agree__checkbox:checked:before{
+    color:#3880f4;
+}
+/* navbar */
+.weui-navbar .weui-bar__item--on{
+    color:#3880f4 !important;
+    background-color: rgba(0,0,0,0) !important;
+    border-bottom:0.1rem solid #3880f4;
+}
+.navbar .bar__item--on{
+    color:#3880f4 !important;
+    background-color: rgba(0,0,0,0) !important;
+    border-bottom:0.1rem solid #3880f4;
+}
+/* tabbar */
+.weui-tabbar .weui-bar__item--on{
+    color:#3880f4;
+}
+.weui-bar__item--on .weui-tabbar__icon,
+.weui-bar__item--on .weui-tabbar__icon i{
+    color:#3880f4;
+}
+.weui-bar__item--on .weui-tabbar__label{
+    color:#3880f4 !important;
+}
+
+
+/** 
+ * pc后台端源代码 
+ */
+.main-header{
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+.main-sidebar{
+    width:230px;
+    overflow-y: auto;
+}
+.sidebar-menu>li>a{
+    padding-right: 15px;
+}

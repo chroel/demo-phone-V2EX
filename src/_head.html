@@ -1,0 +1,58 @@
+<!-- meta -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+
+<!-- jquery -->
+<script src="./static/jq_weui/1.0.0/lib/jquery-2.1.4.js"></script>
+
+<!-- jquery weui -->
+<link rel="stylesheet" href="./static/jq_weui/1.0.0/lib/weui.min.css">
+<link rel="stylesheet" href="./static/jq_weui/1.0.0/css/jquery-weui.css">
+<link rel="stylesheet" href="./static/jq_weui/1.0.0/lib/demos.css">
+<!-- 判断ios版本 -->
+<script>
+    var str= navigator.userAgent.toLowerCase(); 
+    var ver=str.match(/cpu iphone os (.*?) like mac os/);
+    if(!ver){//非IOS系统
+        // 引入fastclick文件
+        includeFastclickJsFile();
+    }else{
+        console.log("你当前的Ios系统版本为："+ver[1].replace(/_/g,"."));
+        if(parseInt(ver[1])>=11){
+            //不必引入fastclick文件
+        }else{
+            // 引入fastclick文件
+            includeFastclickJsFile();
+        }
+    }
+
+    function includeFastclickJsFile(){
+        var oHead = document.getElementsByTagName('HEAD').item(0);  
+        let fastclick= document.createElement("script");
+        let fastclickAttach = document.createElement("script");
+        fastclick.type = "text/javascript";  
+        fastclick.src="./static/jq_weui/1.0.0/lib/fastclick.js";  
+        fastclickAttach.type = "text/javascript";  
+        fastclickAttach.src="./static/lib/fastClick/fastclick_attach.js";  
+        oHead.appendChild(fastclick);
+        oHead.appendChild(fastclickAttach);
+    }
+</script>
+<script src="./static/jq_weui/1.0.0/js/jquery-weui.js"></script>
+
+<!-- vue -->
+<script src="./static/vue/2.4.4/vue.js"></script>
+
+<!--taobao icon font-->
+<link rel="stylesheet" href="./static/font/demo.css">
+<link rel="stylesheet" href="./static/font/iconfont.css">
+<!-- 重置类 normalize.css -->
+<link rel="stylesheet" href="./static/css/normalize.css">
+<!-- 普通类 common.css -->
+<link rel="stylesheet" href="./static/css/common.css">
+<!-- 公用类 public.css -->
+<link rel="stylesheet" href="./static/css/public.css">
+<!-- phone_style.css -->
+<link rel="stylesheet" href="./static/css/style.css">

@@ -1,0 +1,212 @@
+html,body{
+    height: 100%;
+}
+
+/**
+ * font-size
+ */
+ .font-size-xxxsmall{ /*20*/
+    font-size:0.5rem;
+}
+.font-size-xxsmall{ /*22*/
+    font-size:0.6rem;
+}
+.font-size-xsmall{ /*24*/
+    font-size:0.6rem;
+}
+.font-size-small{ /*26*/
+    font-size:0.65rem;
+}
+.font-size-primary{ /*28*/
+    font-size:0.7rem;
+}
+.font-size-xxregular{ /*30*/
+    font-size:0.75rem;
+}
+.font-size-xregular{ /*32*/
+    font-size:0.8rem;
+}
+.font-size-regular{ /*ps上的34px，html上的17px*/
+    font-size:0.85rem;
+}
+.font-size-large{ /*36*/
+    font-size:0.9rem;
+}
+.font-size-xlarge{ /*38*/
+    font-size:0.95rem;
+}
+.font-size-xxlarge{ /*40*/
+    font-size:1.0rem;
+}
+.font-size-xxxlarge{ /*42*/
+    font-size:1.05rem;
+}
+.font-size-huge{ /*44*/
+    font-size:1.1rem;
+}
+
+
+/**
+ * line-height
+ */
+.line-height-xxxsmall{ /*20 -32*/
+    line-height:0.8rem;
+}
+.line-height-xsmall{ /*24 - 36*/
+    line-height:0.9rem;
+}
+.line-height-small{ /*26 - 38*/
+    line-height:0.95rem;
+}
+.line-height-primary{ /*28 - 40*/
+    line-height:1rem;
+}
+.line-height-xxregular{ /*30 - 36*/
+    line-height:1.05rem;
+}
+.line-height-xregular{ /*32 -44*/
+    line-height:1.1rem;
+}
+.line-height-regular{ /*34 -46*/
+    line-height:1.15rem;
+}
+
+/**
+ * margin
+ */
+.margin_20{   /*ps上的40px.html的20px*/
+    margin:1rem;
+}
+.margin-t_20{
+    margin-top:1rem;
+}
+.margin-r_20{
+    margin-right:1rem;
+}
+.margin-b_20{
+    margin-bottom:1rem;
+}
+.margin-l_20{
+    margin-left:1rem;
+}
+.margin_15{   /*ps上的30px.html的15px*/
+    margin: 0.75rem;
+}
+.margin-t_15{
+    margin-top: 0.75rem;
+}
+.margin-r_15{
+    margin-right: 0.75rem;
+}
+.margin-b_15{
+    margin-bottom: 0.75rem;
+}
+.margin-l_15{
+    margin-left: 0.75rem;
+}
+.margin_10{   /*ps上的20px.html的10px*/
+    margin: 0.5rem;
+}
+.margin-t_10{
+    margin-top: 0.5rem;
+}
+.margin-r_10{
+    margin-right: 0.5rem;
+}
+.margin-b_10{
+    margin-bottom: 0.5rem;    
+}
+.margin-l_10{
+    margin-left: 0.5rem;
+}
+
+.margin-r_7{
+    margin-right: 0.35rem;
+}
+
+.margin_5{   /*ps上的10px.html的5px*/
+    margin: 0.25rem;
+}
+.margin-t_5{
+    margin-top: 0.25rem;
+}
+.margin-r_5{
+    margin-right: 0.25rem;
+}
+.margin-b_5{
+    margin-bottom: 0.25rem;    
+}
+.margin-l_5{
+    margin-left: 0.25rem;
+}
+
+
+/**
+ * padding 
+ */
+.padding_15{    /*ps上的30px.html的15px*/
+    padding: 0.75rem;
+}
+.padding-t_15{
+    padding-top: 0.75rem;
+}
+.padding-r_15{
+    padding-right: 0.75rem;
+}
+.padding-b_15{
+    padding-bottom: 0.75rem;
+}
+.padding-l_15{
+    padding-left: 0.75rem;
+}
+.padding_10{   /*ps上的20px.html的10px*/
+    padding: 0.5rem;
+}
+.padding-t_10{
+    padding-top: 0.5rem;
+}
+.padding-r_10{
+    padding-right: 0.5rem;
+}
+.padding-b_10{
+    padding-bottom: 0.5rem;
+}
+.padding-l_10{
+    padding-left: 0.5rem;
+}
+.padding_5{    /*ps上的10px.html的5px*/
+    padding: 0.25rem;
+}
+.padding-t_5{
+    padding-top: 0.25rem;
+}
+.padding-r_5{
+    padding-right: 0.25rem;
+}
+.padding-b_5{
+    padding-bottom: 0.25rem;
+}
+.padding-l_5{
+    padding-left: 0.25rem;
+}
+
+
+
+/* icon */
+.icon-font-small{ /*32*/
+    font-size: 0.8rem;
+}
+.icon-font-normal{ /*44*/
+    font-size: 1.1rem;
+}
+.icon-font-large{ /*54*/
+    font-size: 1.35rem;
+}
+.icon_list{    
+    position: relative;
+    top:0.08rem;
+}
+.icon_nav{    
+    position: relative;
+    top:-0.2rem;
+}
